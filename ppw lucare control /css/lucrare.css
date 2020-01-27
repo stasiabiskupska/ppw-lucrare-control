@@ -1,0 +1,36 @@
+.text {
+	border: 5px dashed red;
+	width: 50%;
+	height: 120px;
+	text-align: right;
+	font-weight: bold;
+}
+img{
+	border: 3px solid green;
+}
+.menu {
+	border: 1px solid gray;
+	padding: 15px 0px 10px 10px;
+}
+ul {
+	list-style: none;
+	background: red;
+	color: white;
+	font-size: 0px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: 1px solid gray;
+	padding: 5px 0px;
+}
+li {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bolder;
+	padding: 7px 20px;
+	margin: 0px 10px;
+	border-radius: 20px;
+}
+li:hover {
+	background: blue;
+	color: gray;
+}
